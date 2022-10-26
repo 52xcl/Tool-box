@@ -42,25 +42,20 @@ restart:
 			system("pause");
 			system("cls");
 			goto restart;
-			break;
 		case 1:
 			system("cls && start http://www.52xcl.cn");
 			goto restart;
-			break;
 		case 2:
 			system("cls && curl -o update.exe http://api.52xcl.cn:88/toolbox/update.exe && start update.exe");
 			break;
 		case 3:
-			exit;
 			break;
 		case 4:
 			system("cls && sfc /scannow");
 			goto restart;
-			break;
 		case 5:
 			system("cls && cleanmgr");
 			goto restart;
-			break;
 
 		}
 	}
