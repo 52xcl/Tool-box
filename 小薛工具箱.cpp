@@ -5,13 +5,13 @@
 
 int str_size;
 //菜单列表
-const char* str[] = { "关于我们","进入官网","更新工具箱","退出","扫描并修复win10系统文件[管理员]",
+const char* str[] = { "退出","进入官网","更新工具箱","关于我们","扫描并修复win10系统文件[管理员]",
 "磁盘垃圾清理[系统自带]" };
 
 //输出菜单
 void list_data() {
 	system("color A");
-	system("title 小薛工具箱 - 小薛娱乐园出品 - V 1.0.0.1 ");
+	system("title 小薛工具箱 - 小薛娱乐园出品 - V 1.0.0.2 ");
 	printf("\n功能列表：\n\n");
 	str_size = (sizeof str) / (sizeof str[0]);
 	for (int i = 0; i < str_size; i++) {
